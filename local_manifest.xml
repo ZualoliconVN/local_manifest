@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
 
 <!-- fetching sources -->      
 
         <remote name="ZualoliconVN"
                 fetch="https://github.com/ZualoliconVN" />
- <!--Remote-->
 
- <remote name="ZualoliconVN" fetch="https://github.com/ZualoliconVN" />
- <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
- 
 <!-- device trees -->
 
         <project path="device/realme/r5x" name="device_realme_r5x" remote="ZualoliconVN" revision="cherish-13" />
@@ -21,9 +16,5 @@
 
         <remove-project name="android_frameworks_base" />
         <project path="frameworks/base" name="android_frameworks_base" remote="ZualoliconVN" revision="tiramisu" /> 
-
- <!-- Proton -->
- <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
-</manifest
 
 </manifest>
