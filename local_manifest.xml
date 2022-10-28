@@ -12,9 +12,4 @@
         <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="ZualoliconVN" revision="twelve" />
         <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="ZualoliconVN" revision="tombstone" clone-depth="1" />
 
-<!-- Replacement -->
-
-        <remove-project name="android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="ZualoliconVN" revision="tiramisu" /> 
-
 </manifest>
