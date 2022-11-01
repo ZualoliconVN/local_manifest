@@ -14,7 +14,7 @@
           fetch="https://gitlab.com/ImSurajxD" />
 
       <remote name="ZualoliconVN"
-          fetch="https://gitlab.com/ZualoliconVN" />
+          fetch="https://github.com/ZualoliconVN" />
           
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="ZualoliconVN" revision="cherish-13" />  
   <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="ahmedhridoy371" revision="thirteen-4.19" />  
