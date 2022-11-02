@@ -13,4 +13,9 @@
         <project path="vendor/vsmart/casuarina" name="android_vendor_vsmart_casuarina" remote="ZualoliconVN" revision="lineage-18" />
         <project path="kernel/vsmart/casuarina" name="kernel_vsmart_sdm632" remote="ZualoliconVN" revision="pie" clone-depth="1" />
 
+<!-- Replacement -->
+
+        <remove-project name="platform_packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="ZualoliconVN" revision="11" /> 
+
 </manifest>
