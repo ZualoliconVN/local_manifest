@@ -9,7 +9,7 @@
 
 <!-- device trees -->
 
-        <project path="device/vsmart/casuarina" name="android_device_vsmart_casuarina" remote="ZualoliconVN" revision="exthm11x" />
+        <project path="device/vsmart/casuarina" name="android_device_vsmart_casuarina" remote="ZualoliconVN" revision="octavi-11" />
         <project path="vendor/vsmart/casuarina" name="android_vendor_vsmart_casuarina" remote="ZualoliconVN" revision="lineage-18" />
         <project path="kernel/vsmart/casuarina" name="kernel_vsmart_sdm632" remote="ZualoliconVN" revision="pie" clone-depth="1" />
 
