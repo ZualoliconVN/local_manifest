@@ -6,9 +6,10 @@
 
         <remote name="ZualoliconVN"
                 fetch="https://github.com/ZualoliconVN" />
+        <remote name="ImSurajxD"
+                fetch="https://gitlab.com/ImSurajxD" />
 
 <!-- device trees -->
-
         <project path="device/xiaomi/raphael" name="device_xiaomi_raphael" remote="ZualoliconVN" revision="rice13" />
         <project path="vendor/xiaomi/raphael" name="vendor_xiaomi_raphael" remote="ZualoliconVN" revision="thirteen" />
         <project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="ZualoliconVN" revision="thirteen" clone-depth="1" />
