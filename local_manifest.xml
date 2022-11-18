@@ -10,11 +10,29 @@
                 fetch="https://github.com/SOVIET-ANDROID" />
         <remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
+        <remote name="azure"
+                fetch="https://github.com/AzurE-007" />
+        <remote name="xcode"
+                fetch="https://github.com/XCode219" />
+        <remote name="extrasas"
+                fetch="https://github.com/ArrowOS" />
+        <remote name="extrasad"
+                fetch="https://github.com/ArrowOS-Devices" />
+        <remote name="extrasls"
+                fetch="https://github.com/LineageOS" />
+        <remote name="extrasex"
+                fetch="https://github.com/Evolution-X" />
 
 <!-- device trees -->
         <project path="device/xiaomi/raphael" name="device_xiaomi_raphael-1" remote="ZualoliconVN" revision="13" />
         <project path="vendor/xiaomi/raphael" name="android_vendor_xiaomi_raphael" remote="ZualoliconVN" revision="13" />
         <project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="SOVIET-ANDROID" revision="13.0" clone-depth="1" />
+<!-- Extra -->
+        <project path="device/xiaomi/extras" name="android_device_xiaomi_extras" remote="extrasad" revision="arrow-12.0" />
+        <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="extrasad" revision="arrow-12.0" />
+        <remove-project name="android_packages_resources_devicesettings"/>
+        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="extrasls" revision="lineage-19.1" />
+<!-- HALs Replacement -->
 <!-- (Clang) -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 </manifest>
