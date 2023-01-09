@@ -8,8 +8,8 @@
 
 <!-- device trees -->
 
-        <project path="device/realme/r5x" name="device_realme_r5x" remote="ZualoliconVN" revision="cherish-13" />
-        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="ZualoliconVN" revision="twelve" />
-        <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="ZualoliconVN" revision="tombstone" clone-depth="1" />
+        <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="ZualoliconVN" revision="tiramisu" />
+        <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="ZualoliconVN" revision="arrow-12.1" />
+        <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="ZualoliconVN" revision="tiramisu" clone-depth="1" />
 
 </manifest>
